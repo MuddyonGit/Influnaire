@@ -1,0 +1,77 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+.custom-gradient {
+  background: linear-gradient(60deg, blue, orangered);
+}
+
+.brand-influncer-swiper .swiper-wrapper {
+  width: 90%;
+}
+
+@font-face {
+  font-family: "Clash Display";
+  src: url("../public//fonts//ClashDisplay-Bold.woff2") format("woff2");
+  /* Add additional formats if needed (e.g., woff, ttf) */
+}
+
+@font-face {
+  font-family: "Segoe UI";
+  src: local("Segoe UI"), local("SegoeUI"),
+    url(./path-to-your-fonts/SegoeUI.ttf) format("truetype");
+}
+
+.card-swiper .swiper-wrapper {
+  width: 60%;
+}
+
+.gradient-text {
+  background-clip: text;
+  color: transparent;
+  background-image: linear-gradient(204deg, #009bf3 15.18%, #0052f3 54.65%);
+  display: inline-block;
+}
+
+.custom-div {
+  position: relative;
+  background-color: #007bff;
+  padding: 80px;
+  padding-bottom: 120px;
+  color: white;
+  overflow: hidden;
+}
+
+.custom-div::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 80px;
+  background-color: #fff;
+  border-top-left-radius: 160%;
+  border-top-right-radius: 160%;
+}
+
+/* swiper-pagination.css */
+
+.swiper-pagination {
+  position: absolute;
+  bottom: 0px;
+  display: flex;
+  justify-content: center;
+}
+
+.swiper-pagination-bullet {
+  width: 10px;
+  height: 10px;
+  background-color: gray;
+  margin: 0 5px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #1677ff;
+}
