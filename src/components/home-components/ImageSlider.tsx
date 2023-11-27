@@ -54,7 +54,7 @@ const ImageSlider = () => {
               key={index}
               className={`relative ${index % 2 === 0 ? "mt-32" : ""}`}
             >
-              <div className="flex justify-center">
+              <div className="flex justify-center mr-10">
                 <img
                   src={member.image}
                   className="w-72 lg:h-96 rounded-3xl object-cover"
