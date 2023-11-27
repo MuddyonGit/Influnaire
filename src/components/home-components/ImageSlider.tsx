@@ -18,10 +18,10 @@ const ImageSlider = () => {
               key={index}
               className={`relative ${index % 2 === 0 ? "mt-32" : ""}`}
             >
-              <div className="flex justify-center">
+              <div className="flex justify-center mr-10">
                 <img
                   src={member.image}
-                  className="w-72 lg:h-96 rounded-3xl mr-10 object-cover"
+                  className="w-72 lg:h-96 rounded-3xl object-cover"
                 />
                 <h1 className="text-color-white font-bold font-font-source-sans-pro text-2xl absolute top-52 lg:top-56">
                   {member.name}
@@ -57,7 +57,7 @@ const ImageSlider = () => {
               <div className="flex justify-center">
                 <img
                   src={member.image}
-                  className="w-72 lg:h-96 rounded-3xl mr-10 object-cover"
+                  className="w-72 lg:h-96 rounded-3xl object-cover"
                 />
                 <p className="font-font-source-sans-pro text-color-white text-center absolute top-56  text-lg">
                   Seize the day
