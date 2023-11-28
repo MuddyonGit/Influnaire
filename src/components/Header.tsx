@@ -33,33 +33,39 @@ const Header = () => {
   };
 
   return (
-    <div className="relative">
+    <div className="relative ">
       <div
-        className="hidden lg:flex items-center justify-between w-full absolute inset-x-0 top-3 z-20 p-4 "
+        className="hidden lg:flex  w-full absolute inset-x-0 top-3 z-20 p-4 "
         style={getHeaderStyle()}
       >
-        <div className="">
-          <Link to="/">
-            <img src={influnaireLogo} alt="Influnaire Logo" className="w-1/2" />
-          </Link>
-        </div>
-        <div className="flex gap-8 text-color-white text-base font-normal font-font-source-sans-pro">
-          <Link to="/">Home</Link>
-          <Link to="/about">About Us</Link>
-          <Link to="/pricing">Pricing</Link>
-          <Link to="/contact">Contact Us</Link>
-          <Link to="/faq">FAQ</Link>
-        </div>
-        <div className="flex flex-row items-center gap-4">
-          <Link
-            to="https://app.influnaire.dreamkashmir.com/influencer/login"
-            className="text-color-white text-base font-normal font-font-source-sans-pro"
-          >
-            Login
-          </Link>
-          <button className="text-color-light-blue bg-color-white px-4 py-1 rounded-md font-semibold font-font-source-sans-pro">
-            Join The Community
-          </button>
+        <div className="w-full largerDevices:max-w-7xl mx-auto lg:flex justify-between items-center">
+          <div className="">
+            <Link to="/">
+              <img
+                src={influnaireLogo}
+                alt="Influnaire Logo"
+                className="w-1/2"
+              />
+            </Link>
+          </div>
+          <div className="flex gap-8 text-color-white text-base font-normal font-font-source-sans-pro">
+            <Link to="/">Home</Link>
+            <Link to="/about">About Us</Link>
+            <Link to="/pricing">Pricing</Link>
+            <Link to="/contact">Contact Us</Link>
+            <Link to="/faq">FAQ</Link>
+          </div>
+          <div className="flex flex-row items-center gap-4">
+            <Link
+              to="https://app.influnaire.dreamkashmir.com/influencer/login"
+              className="text-color-white text-base font-normal font-font-source-sans-pro"
+            >
+              Login
+            </Link>
+            <button className="text-color-light-blue bg-color-white px-4 py-1 rounded-md font-semibold font-font-source-sans-pro">
+              Join The Community
+            </button>
+          </div>
         </div>
       </div>
 

@@ -9,7 +9,7 @@ const TopSection = () => {
   return (
     <div>
       <div
-        className={` px-0 pt-36 pb-72 lg:pb-60 relative`}
+        className={` px-0 pt-36 pb-72 lg:pb-60 relative `}
         style={
           selectedMode === "brand"
             ? {
@@ -30,14 +30,16 @@ const TopSection = () => {
           className="w-full  absolute inset-0 z-10"
         ></div>
         <div className="">
-          <div>
+          <div className="largerDevices:max-w-7xl mx-auto">
             <ToggleSwitch />
           </div>
           <div className="relative">
             <ImageSlider />
           </div>
-          <div className="absolute top-56 z-10">
-            <TopLeftSection />
+          <div className="largerDevices:max-w-7xl mx-auto">
+            <div className="absolute top-56 z-10 largerDevices:max-w-7xl mx-auto ">
+              <TopLeftSection />
+            </div>
           </div>
         </div>
         <BottomTopSection />

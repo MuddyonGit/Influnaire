@@ -36,7 +36,7 @@ const MarketingCycle = () => {
 
   return (
     <>
-      <div className="flex flex-col justify-center gap-6 -mt-52 md:-mt-20 py-10">
+      <div className="flex flex-col justify-center gap-6 -mt-52 md:-mt-20 py-10 largerDevices:max-w-7xl mx-auto">
         <div className="text-center">
           <h1 className="font-Clash-Display  font-bold gradient-text leading-tight text-2xl  md:text-3xl lg:text-4xl xl:text-5xl">
             Manage complete Influencer Marketing <br />

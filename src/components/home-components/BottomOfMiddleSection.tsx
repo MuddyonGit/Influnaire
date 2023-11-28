@@ -33,7 +33,7 @@ const BottomOfMiddleSection = () => {
             </div>
           </div>
         ) : (
-          <div className="flex flex-col gap-6 justify-center lg:flex-row md:justify-around px-4 md:px-20">
+          <div className="flex flex-col gap-6 justify-center lg:flex-row md:justify-around px-4 md:px-20 largerDevices:max-w-7xl mx-auto">
             <div className="flex flex-col gap-8 w-full">
               <h1 className="font-Clash-Display text-5xl font-bold gradient-text leading-tight">
                 Our Creator App
@@ -67,7 +67,7 @@ const BottomOfMiddleSection = () => {
                 </Link>
               </div>
             </div>
-            <div className="relative w-full extraLargerDevices:w-1/2">
+            <div className="relative w-full ">
               <img
                 src={creatorAppImage}
                 alt=""

@@ -9,7 +9,7 @@ const FAQ = () => {
   };
   return (
     <>
-      <div className="bg-color-white px-4 md:px-10 xl:px-72 pt-28 pb-20 flex flex-col gap-8">
+      <div className="bg-color-white px-4 md:px-10 xl:px-72 pt-28 pb-20 flex flex-col gap-8 largerDevices:max-w-7xl mx-auto largerDevices:px-20">
         <div className="text-center space-y-4">
           <h1 className="font-font-source-sans-pro text-color-969696 text-3xl md:text-5xl font-bold">
             Ask and we answer

@@ -13,7 +13,7 @@ const ContactFormDiv = () => {
   return (
     <>
       <div
-        className="flex flex-col-reverse xl:flex-row rounded-md"
+        className="flex flex-col-reverse xl:flex-row rounded-md largerDevices:max-w-7xl mx-auto"
         style={{ boxShadow: "0px 0px 60px 30px rgba(0, 0, 0, 0.03)" }}
       >
         <div className="w-full xl:w-2/5 flex flex-col justify-between gap-20 p-8 bg-color-hot-blue rounded-b-md xl:rounded-l-md xl:rounded-br-none">

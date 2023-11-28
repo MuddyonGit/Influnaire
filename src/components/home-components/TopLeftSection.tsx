@@ -29,7 +29,7 @@ const TopLeftSection = () => {
 
   return (
     <>
-      <div className="h-screen 2xl:max-w-7xl mx-auto">
+      <div className="h-screen">
         <div className="px-8 lg:px-12 md:px-14 flex flex-col gap-3 md:gap-6">
           <div>
             <h1 className="text-color-white font-Clash-Display font-black text-2xl md:text-5xl lg:text-7xl ">

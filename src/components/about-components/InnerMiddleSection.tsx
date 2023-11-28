@@ -5,7 +5,7 @@ import bulbImage from "../../assets/fluent-emoji_light-bulb.svg";
 const InnerMiddleSection = () => {
   return (
     <>
-      <div className="flex flex-col lg:flex-row w-full">
+      <div className="flex flex-col lg:flex-row w-full largerDevices:max-w-7xl mx-auto">
         <div className="flex flex-col w-full  lg:w-1/4">
           <div className="bg-color-gray flex flex-col justify-center items-center gap-4 p-20  lg:h-1/2">
             <div className="flex lg:self-start 2xl:self-center gap-2">
@@ -52,7 +52,7 @@ const InnerMiddleSection = () => {
             </h1>
           </div>
           <div className="flex flex-col lg:flex-row h-3/5">
-            <div className="bg-color-gray flex flex-col justify-center items-center gap-4 p-12 lg:w-1/2 xl:w-full">
+            <div className="bg-color-gray flex flex-col justify-center items-center gap-4 p-12 lg:w-1/2 xl:w-1/2">
               <div className="flex lg:self-start 2xl:self-center gap-2">
                 <div className="text-3xl text-color-dim-black">
                   <HiUserGroup />
@@ -67,7 +67,7 @@ const InnerMiddleSection = () => {
                 collaboration while maximizing the impact of your campaigns.
               </p>
             </div>
-            <div className="bg-color-3C74A4 flex flex-col justify-center items-center gap-4 p-12 lg:w-1/2 xl:w-full">
+            <div className="bg-color-3C74A4 flex flex-col justify-center items-center gap-4 p-12 lg:w-1/2 xl:w-1/2">
               <div className="flex lg:self-start 2xl:self-center gap-2">
                 <img src={bulbImage} alt="Bulb" className="w-1/6" />
                 <p className="text-color-white font-font-source-sans-pro text-2xl">

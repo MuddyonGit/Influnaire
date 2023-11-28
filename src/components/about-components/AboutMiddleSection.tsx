@@ -4,7 +4,7 @@ const AboutMiddleSection = () => {
   return (
     <>
       <div className="bg-color-light-whitesmoke">
-        <div className="bg-color-white p-4 pb-16 lg:pr-40 flex flex-col gap-4 mx-6 lg:mx-32 xl:mx-80 -translate-y-8 rounded-3xl">
+        <div className="bg-color-white p-4 pb-16 lg:pr-40 flex flex-col gap-4 mx-6 lg:mx-32 xl:mx-80 -translate-y-8 rounded-3xl largerDevices:max-w-7xl largerDevices:mx-auto">
           <h1 className="font-font-source-sans-pro text-color-blueblack text-3xl font-bold text-center lg:text-left">
             Mission
           </h1>

@@ -62,6 +62,7 @@ export default {
       },
       left: {
         120: "30rem",
+        110: "25rem",
       },
       height: {
         120: "30rem",
@@ -85,7 +86,9 @@ export default {
       },
       screens: {
         extraLargerDevices: "1900px",
+        mediumLargerDevices: "1800",
         largerDevices: "1600px",
+        hugeDevices: "2000px",
       },
     },
   },
