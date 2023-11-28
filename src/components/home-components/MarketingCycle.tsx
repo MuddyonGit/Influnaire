@@ -16,9 +16,9 @@ const MarketingCycle = () => {
     const handleResize = () => {
       const screenWidth = window.innerWidth;
 
-      if (screenWidth <= 640) {
+      if (screenWidth <= 768) {
         setSlidesPerView(1);
-      } else if (screenWidth > 640 && screenWidth <= 1280) {
+      } else if (screenWidth > 768 && screenWidth <= 1280) {
         setSlidesPerView(2);
       } else {
         setSlidesPerView(4);
@@ -43,11 +43,11 @@ const MarketingCycle = () => {
             lifecycle from a single platform
           </h1>
         </div>
-        <div className="flex justify-center">
+        <div className="flex justify-center items-center">
           <div
             className={`${
               activeSlideIndex === 0
-                ? "bg-color-dark-blue text-color-white  p-4 rounded-full lg:bg-color-whitesmoke lg:text-color-dim-black"
+                ? "bg-color-dark-blue text-color-white  p-4 rounded-full md:bg-color-whitesmoke md:text-color-dim-black"
                 : "bg-color-whitesmoke"
             }  p-4 rounded-full`}
           >
@@ -99,82 +99,96 @@ const MarketingCycle = () => {
         {selectedMode !== "brand" ? (
           <div className="flex justify-center items-center">
             <Swiper
-              className="flex justify-center items-center lg:pr-60"
               spaceBetween={window.innerWidth <= 768 ? 0 : 0}
               loop={true}
               pagination={false}
               slidesPerView={slidesPerView}
-              centeredSlides={true}
+              // centeredSlides={true}
               onActiveIndexChange={(e) => setActiveSlideIndex(e.realIndex)}
             >
               <SwiperSlide>
-                <MarketingCard
-                  title="Discover Influencers"
-                  description="Find influencers that will take your brand to "
-                  onGetStartedClick={() => {}}
-                />
+                <div className="flex justify-center items-center">
+                  <MarketingCard
+                    title="Discover Influencers"
+                    description="Find influencers that will take your brand to "
+                    onGetStartedClick={() => {}}
+                  />
+                </div>
               </SwiperSlide>
               <SwiperSlide>
-                <MarketingCard
-                  title="Invite Influencers"
-                  description="Find influencers that will take your brand to a next level "
-                  onGetStartedClick={() => {}}
-                />
+                <div className="flex justify-center items-center">
+                  <MarketingCard
+                    title="Invite Influencers"
+                    description="Find influencers that will take your brand to a next level "
+                    onGetStartedClick={() => {}}
+                  />
+                </div>
               </SwiperSlide>
               <SwiperSlide>
-                <MarketingCard
-                  title="Manage Campaign"
-                  description="Find influencers that will take your brand to a next level "
-                  onGetStartedClick={() => {}}
-                />
+                <div className="flex justify-center items-center">
+                  <MarketingCard
+                    title="Manage Campaign"
+                    description="Find influencers that will take your brand to a next level "
+                    onGetStartedClick={() => {}}
+                  />
+                </div>
               </SwiperSlide>
               <SwiperSlide>
-                <MarketingCard
-                  title="Analyze ROI for Campaign"
-                  description="Find influencers that will take your brand to a next level "
-                  onGetStartedClick={() => {}}
-                />
+                <div className="flex justify-center items-center">
+                  <MarketingCard
+                    title="Analyze ROI for Campaign"
+                    description="Find influencers that will take your brand to a next level "
+                    onGetStartedClick={() => {}}
+                  />
+                </div>
               </SwiperSlide>
             </Swiper>
           </div>
         ) : (
-          <div className="flex justify-center items-center">
+          <div className="flex justify-center items-center ">
             <Swiper
-              className="flex justify-center items-center lg:pr-60"
-              spaceBetween={window.innerWidth <= 768 ? 0 : 20}
+              spaceBetween={window.innerWidth <= 768 ? 0 : 0}
               loop={true}
               pagination={false}
               slidesPerView={slidesPerView}
-              centeredSlides={true}
+              // centeredSlides={true}
               onActiveIndexChange={(e) => setActiveSlideIndex(e.realIndex)}
             >
               <SwiperSlide>
-                <MarketingCard
-                  title="Discover Campaigns"
-                  description="Find influencers that will take your brand to "
-                  onGetStartedClick={() => {}}
-                />
+                <div className="flex justify-center items-center">
+                  <MarketingCard
+                    title="Discover Campaigns"
+                    description="Find influencers that will take your brand to "
+                    onGetStartedClick={() => {}}
+                  />
+                </div>
               </SwiperSlide>
               <SwiperSlide>
-                <MarketingCard
-                  title="Send Proposals"
-                  description="Find influencers that will take your brand to a next level "
-                  onGetStartedClick={() => {}}
-                />
+                <div className="flex justify-center items-center">
+                  <MarketingCard
+                    title="Send Proposals"
+                    description="Find influencers that will take your brand to a next level "
+                    onGetStartedClick={() => {}}
+                  />
+                </div>
               </SwiperSlide>
               <SwiperSlide>
-                <MarketingCard
-                  title="Create Content"
-                  description="Find influencers that will take your brand to a next level "
-                  onGetStartedClick={() => {}}
-                />
+                <div className="flex justify-center items-center">
+                  <MarketingCard
+                    title="Create Content"
+                    description="Find influencers that will take your brand to a next level "
+                    onGetStartedClick={() => {}}
+                  />
+                </div>
               </SwiperSlide>
               <SwiperSlide>
-                <MarketingCard
-                  title="Upload content"
-                  description="Find influencers that will take your brand to a next level "
-                  onGetStartedClick={() => {}}
-                />
+                <div className="flex justify-center items-center">
+                  <MarketingCard
+                    title="Upload content"
+                    description="Find influencers that will take your brand to a next level "
+                    onGetStartedClick={() => {}}
+                  />
+                </div>
               </SwiperSlide>
             </Swiper>
           </div>

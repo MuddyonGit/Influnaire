@@ -71,7 +71,7 @@ const BottomOfMiddleSection = () => {
               <img
                 src={creatorAppImage}
                 alt=""
-                className="w-full object-cover absolute z-10"
+                className="sm:w-2/3 lg:w-full object-cover absolute z-10"
               />
             </div>
           </div>
