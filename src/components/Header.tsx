@@ -35,7 +35,7 @@ const Header = () => {
   return (
     <div className="relative">
       <div
-        className="hidden lg:flex items-center justify-between w-full absolute inset-x-0 top-3 z-20 p-4"
+        className="hidden lg:flex items-center justify-between w-full absolute inset-x-0 top-3 z-20 p-4 "
         style={getHeaderStyle()}
       >
         <div className="">

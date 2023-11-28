@@ -67,7 +67,7 @@ const BottomOfMiddleSection = () => {
                 </Link>
               </div>
             </div>
-            <div className="relative lg:w-full 2xl:w-1/2">
+            <div className="relative w-full extraLargerDevices:w-1/2">
               <img
                 src={creatorAppImage}
                 alt=""

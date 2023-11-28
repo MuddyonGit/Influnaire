@@ -10,7 +10,7 @@ import ScrollToTop from "./hooks/ScrollToTop";
 
 function App() {
   return (
-    <div className="overflow-hidden">
+    <div className="overflow-hidden ">
       <BrowserRouter>
         <ScrollToTop />
         <MyContextProvider>

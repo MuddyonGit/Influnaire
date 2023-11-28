@@ -5,7 +5,7 @@ const CreateTestimonials = () => {
         style={{
           background: "linear-gradient(180deg, #F1B643 0%, #F9E000 100%)",
         }}
-        className="flex items-end h-144 lg:h-120 justify-center  p-40 lg:p-10 translate-y-48 md:translate-y-96 lg:translate-y-10 2xl:translate-y-28"
+        className="flex items-end h-120 lg:h-120 justify-center  p-40 lg:p-10 translate-y-48 md:translate-y-60 lg:translate-y-10 2xl:translate-y-28"
       >
         <div className="flex flex-col gap-4">
           <h1 className="text-color-dark-black font-Clash-Display font-bold text-5xl text-center">

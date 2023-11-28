@@ -7,7 +7,7 @@ import BottomTopSection from "./BottomTopSection";
 const TopSection = () => {
   const { selectedMode } = useMyContext();
   return (
-    <>
+    <div>
       <div
         className={` px-0 pt-36 pb-72 lg:pb-60 relative`}
         style={
@@ -42,7 +42,7 @@ const TopSection = () => {
         </div>
         <BottomTopSection />
       </div>
-    </>
+    </div>
   );
 };
 

@@ -84,7 +84,7 @@ export default {
         144: "36rem",
       },
       screens: {
-        extraLargerDevices: "2000px",
+        extraLargerDevices: "1900px",
         largerDevices: "1600px",
       },
     },
