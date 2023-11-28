@@ -40,9 +40,9 @@ const CardSlider = () => {
                   background:
                     "linear-gradient(213deg, #F36600 12.5%, #F30000 56.39%)",
                 }}
-                className="h-140 md:h-96"
+                className="h-auto"
               >
-                <div className="flex flex-col gap-12 md:flex-row items-center justify-between p-6 pb-48  md:pb-4 md:p-12">
+                <div className="flex flex-col gap-12 md:flex-row items-center justify-between p-6 md:pb-4 md:p-12">
                   <div className="flex flex-col gap-4">
                     <h1 className="text-color-white font-bold text-2xl md:text-4xl font-segoe-ui">
                       Join #1 destination where <br /> brands discover <br />{" "}
@@ -78,7 +78,7 @@ const CardSlider = () => {
                   background:
                     "linear-gradient(256deg, #31AEF9 65%, #31AEF9 86.93%, #3F3BF6 96.12%, #EA3356 96.36%)",
                 }}
-                className="h-120 md:h-96"
+                className="h-auto"
               >
                 <div className="flex flex-col gap-4 px-6 p-10 md:p-10">
                   <p className="text-color-white font-segoe-ui font-bold text-sm">
@@ -111,9 +111,9 @@ const CardSlider = () => {
                 background:
                   "linear-gradient(256deg, #FFAB00 86.93%, #FF5630 96.12%, #FF5630 100%)",
               }}
-              className="rounded-md h-120 md:h-80"
+              className="rounded-md h-auto"
             >
-              <div className="flex flex-col gap-8 md:flex-row items-center justify-between p-6 pb-48 md:pb-10 md:p-12">
+              <div className="flex flex-col gap-12 md:flex-row items-center justify-between p-6   md:pb-4 md:p-12">
                 <div className="flex flex-col gap-4">
                   <h1 className="text-color-black font-bold text-3xl md:text-4xl font-segoe-ui">
                     Manage your Profile
@@ -128,7 +128,7 @@ const CardSlider = () => {
                   <img
                     src={groupImage}
                     alt=""
-                    className="object-cover  md:w-3/5"
+                    className="object-cover  w-full"
                   />
                 </div>
               </div>
@@ -138,7 +138,7 @@ const CardSlider = () => {
                 background:
                   "linear-gradient(256deg, #31AEF9 65%, #31AEF9 86.93%, #3F3BF6 96.12%, #EA3356 96.36%)",
               }}
-              className="rounded-md h-120 md:h-80"
+              className="rounded-md h-auto"
             >
               <div className="flex flex-col gap-4 px-4 p-10 md:p-10">
                 <p className="text-color-white font-segoe-ui font-bold text-sm">

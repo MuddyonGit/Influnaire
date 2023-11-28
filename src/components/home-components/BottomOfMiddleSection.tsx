@@ -33,7 +33,7 @@ const BottomOfMiddleSection = () => {
             </div>
           </div>
         ) : (
-          <div className="flex flex-col gap-6 lg:flex-row justify-between  md:justify-around px-4 md:px-20">
+          <div className="flex flex-col gap-6 justify-center lg:flex-row md:justify-around px-4 md:px-20">
             <div className="flex flex-col gap-8 w-full">
               <h1 className="font-Clash-Display text-5xl font-bold gradient-text leading-tight">
                 Our Creator App
