@@ -113,7 +113,7 @@ const CardSlider = () => {
               }}
               className="rounded-md h-120 md:h-80"
             >
-              <div className="flex flex-col gap-8 md:flex-row items-center justify-between p-6 pb-48 md:pb-4 md:p-12">
+              <div className="flex flex-col gap-8 md:flex-row items-center justify-between p-6 pb-48 md:pb-10 md:p-12">
                 <div className="flex flex-col gap-4">
                   <h1 className="text-color-black font-bold text-3xl md:text-4xl font-segoe-ui">
                     Manage your Profile
