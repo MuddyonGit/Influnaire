@@ -113,12 +113,12 @@ const CardSlider = () => {
               }}
               className="rounded-md h-auto"
             >
-              <div className="flex flex-col gap-12 md:flex-row items-center justify-between p-6   md:pb-4 md:p-12">
+              <div className="flex flex-col gap-12 md:flex-row justify-between p-6   md:pb-4 md:p-12">
                 <div className="flex flex-col gap-4">
-                  <h1 className="text-color-black font-bold text-3xl md:text-4xl font-segoe-ui">
+                  <h1 className="text-color-black font-bold text-3xl md:text-4xl extraLargerDevices:text-5xl font-segoe-ui">
                     Manage your Profile
                   </h1>
-                  <p className="text-color-black font-inter text-sm md:text-base font-bold w-80">
+                  <p className="text-color-black font-inter text-sm md:text-base font-bold w-80 ">
                     Put your game in front of highly relevant content creator
                     communities and scale your influencer marketing to new
                     heights.
