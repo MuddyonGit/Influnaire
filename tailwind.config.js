@@ -87,7 +87,7 @@ export default {
       screens: {
         extraLargerDevices: "1900px",
         mediumLargerDevices: "1800",
-        largerDevices: "1600px",
+        largerDevices: "1500px",
         hugeDevices: "2000px",
       },
     },
